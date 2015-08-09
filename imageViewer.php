@@ -1,7 +1,8 @@
 <?php
-define('IMAGE_PATH', 'assets/img/');
 mb_language('japanese');
 mb_internal_encoding('UTF-8');
+
+define('IMAGE_PATH', '');
 
 $error_flag = false;
 
@@ -24,7 +25,6 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
 		$prev_dir_name = $_SERVER['SCRIPT_NAME'];
 	}
 
-	$top_dir = $dir_name[0];
 	$dir_name = implode('/', $dir_name);
 
 	$check_dir_name = substr($dir_name, 0,  mb_strlen($dir_name));
