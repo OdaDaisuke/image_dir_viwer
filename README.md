@@ -1,4 +1,4 @@
-# yes view image easily の使い方
+# Usage
 
 ## Step1
 
@@ -6,10 +6,6 @@
 
 ## Step2
 
- imageViewer.phpの5行目
+ imageViewer.phpの5行目に画像一覧を表示したいディレクトリを指定してください。(相対パスでも絶対パスでもOK)
 
  > define('IMAGE_PATH', 'ディレクトリ');
-
- 上記のように、画像一覧を表示したいディレクトリを指定してください。(相対パスでも絶対パスでもOK)
-
-Created by [@hinodeya_pon](https://twitter.com/hinodeya_pon)
